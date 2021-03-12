@@ -1,0 +1,337 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.banner-image {
+    background-image: url(../img/Group\ 65@2x.png);
+    width: 100%;
+    height: 324px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin-bottom: 56px;
+    -webkit-box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.image-text-wrap {
+    max-width: 1440px;
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.image-text-wrap h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 42px;
+    color: #ffffff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.image-text-wrap a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.devider::before {
+    content: "";
+    width: 2px;
+    height: 24px;
+    border-radius: 16%;
+    display: block;
+    margin: 15px;
+    background: #ffffff;
+  }
+
+  .home-contact {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+
+ .position {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+ }
+
+ .forms {
+    font-family: 'Poppins', sans-serif;
+     margin-top: 56px;
+     margin-bottom: 32px;
+ }
+
+.title h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-bottom: 8px;
+    color: #5863F8;
+}
+
+.title h2 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.title {
+    margin-bottom: 32px;
+}
+
+form textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #484848;
+    resize: none;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    border: 2px solid #E8E8E8;
+    height: 290px;
+    border-radius: 4px;
+    padding: 16px;
+    margin-right: 16px;
+}
+
+textarea:focus { 
+    outline-color: #5863F8;
+}
+
+form ::-webkit-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+form ::-moz-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+form :-ms-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+form ::-ms-input-placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+form ::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    width: 337px;
+    border: 2px solid #E8E8E8;
+    border-radius: 4px;
+    padding: 18px;
+    font-size: 16px;
+}
+input:focus {
+    outline-color: #5863F8;
+}
+button {
+    background: none;
+    border: 0;
+    background-color: #5863F8;
+    padding: 16px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.inputs-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+form {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.map {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.section-bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 48px;
+}
+
+.bg-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #5863F8;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 16px;
+}
+
+ion-icon {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .bottom-text, .box {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+
+  .bottom-text h5 {
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 6px;
+  }
+
+  .bottom-text a {
+      font-size: 14px;
+      color: #717171;
+      line-height: 18px;
+  }
+
+@media (max-width: 480px) {
+    .banner-image {
+        height: 200px;
+        padding: 24px;
+        margin-bottom: 32px;
+    }
+
+    .image-text-wrap h2 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    
+    iframe {
+        height: 200px;
+    }
+
+    .title h4 {
+        font-size: 14px;
+        letter-spacing: 0.1px;
+    }
+
+    .title h2 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    form textarea {
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    input {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .inputs-buttons {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+                width: 100%;
+    }
+
+
+    .section-bottom {
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .box {
+        margin-bottom: 16px;
+    }
+
+    form::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+
+    form::-moz-placeholder {
+        font-size: 14px;
+    }
+
+    form:-ms-input-placeholder {
+        font-size: 14px;
+    }
+
+    form::-ms-input-placeholder {
+        font-size: 14px;
+    }
+
+    form::placeholder {
+        font-size: 14px;
+    }
+
+    .bottom-text a {
+        font-size: 16px;
+    }
+    
+}
